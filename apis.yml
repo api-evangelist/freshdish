@@ -1,7 +1,18 @@
 aid: freshdish
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/freshdish.png
 name: FreshDish
-description: FreshDish is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: FreshDish (Fresh Dish, Inc.) was a Santa Monica meal-kit delivery startup founded in 2012 by Steve Goldstein (formerly SVP/GM at Provide Commerce, the ProFlowers and Shari's Berries operator). Incubated by Science Inc. and seeded with $500,000 from Battery Ventures, it shipped ready-to-cook dinner kits with chef-designed recipes and pre-portioned ingredients (two-person kits at $24, family-of-four at $32, free shipping). The company was deadpooled and is no longer operating; the freshdish.com domain now resolves to a parked/for-sale lander. It was surfaced as a Battery Ventures portfolio company and added to the API Evangelist network as a stub. FreshDish never operated a developer program, public API, or SDKs, so there is no API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/freshdish/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,26 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: deadpooled; domain parked as of 2026-07-20
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Meal Kits
+- Food Delivery
+- E-Commerce
+- Consumer
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
